@@ -1,32 +1,20 @@
 # YelpRatePrediction
 
 How to use:
+1, clone this repo and put the dataset in it, the organization should look like below:
+```
+YelpRatePrediction
+├── yelp_academic_dataset_review.json
+├── yelp_academic_dataset_business.json
+├── yelp_academic_dataset_tip.json
+├── yelp_academic_dataset_checkin.json
+├── yelp_academic_dataset_user.json
+├── code
+|   ├── data_to_vector.py
+|   ├── get_user_model.py
+|   ├── extract.py
+|   ├── linear_regression.py
+|   ├── splitDataset.py
+```
 
-1: File organization:
-Files are organized like below:
-## Data
-- Download the [KITTI Depth](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion) Dataset from their website. Use the following scripts to extract corresponding RGB images from the raw dataset. 
-```bash
-./download/rgb_train_downloader.sh
-./download/rgb_val_downloader.sh
-```
-The downloaded rgb files will be stored in the `../data/data_rgb` folder. The overall code, data, and results directory is structured as follows (updated on Oct 1, 2019)
-```
-.
-├── self-supervised-depth-completion
-├── data
-|   ├── data_depth_annotated
-|   |   ├── train
-|   |   ├── val
-|   ├── data_depth_velodyne
-|   |   ├── train
-|   |   ├── val
-|   ├── depth_selection
-|   |   ├── test_depth_completion_anonymous
-|   |   ├── test_depth_prediction_anonymous
-|   |   ├── val_selection_cropped
-|   └── data_rgb
-|   |   ├── train
-|   |   ├── val
-├── results
-```
+2, run the files
