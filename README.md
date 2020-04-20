@@ -23,7 +23,7 @@ You should get `data_modeling.json`,  `data_training.json` and `data_testing.jso
 2.2 run `extract.py`, this file encode each item in the business dataset into a simpler representation <br>
 You should get `restaurants_encoded.json`<br>
 2.3 run `user_model.py`, this file gets you the user model <br>
-You should get `user_model.json` (note: if your computer does not have enough memory to run this, download the same file on the shared google folder)<br>
+You should get `user_model.json` (note: if your computer does not have enough memory to run this, download the same file on the shared google folder and put it into the `code` foler)<br>
 2.4  **NOTICE!!** use the file `data_to_vector.py` as follows: 
 2.4.1: run it directly, you should get `testing_X.json` and `testing_Y.json`<br>
 2.4.2: modify the line 4,7,8 (no need to care line 5), change the `testing` substring in them into `training`, then  you shuold get `training_X.json` and `training_Y.json`<br>.
