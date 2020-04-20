@@ -1,6 +1,6 @@
 # YelpRatePrediction
 
-How to use:
+How to use: <br>
 1, clone this repo and put the dataset in it, the organization should look like below:
 ```
 YelpRatePrediction
