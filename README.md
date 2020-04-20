@@ -1,7 +1,7 @@
 # YelpRatePrediction
 
 How to use: <br>
-# 1, clone this repo and put the dataset in it, the organization should look like below:
+## 1, clone this repo and put the dataset in it, the organization should look like below:
 ```
 YelpRatePrediction
 ├── yelp_academic_dataset_review.json
@@ -17,7 +17,7 @@ YelpRatePrediction
 |   ├── splitDataset.py
 ```
 
-# 2, run the files in the following order:<br>
+## 2, run the files in the following order:<br>
 2.1: run `splitDataset.py`, this file split the whole review dataset into 3 parts <br>
 You should get `data_modeling.json`,  `data_training.json` and `data_testing.json`<br>
 2.2 run `extract.py`, this file encode each item in the business dataset into a simpler representation <br>
