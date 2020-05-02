@@ -39,12 +39,12 @@ You should get `user_model.json` (note: if your computer does not have enough me
 2.4.1: run it directly, you should get `testing_X.json` and `testing_Y.json`<br>
 2.4.2: modify the line 4,7,8 (no need to care about line 5), change the `testing` substring in them into `training`, then  you shuold get `training_X.json` and `training_Y.json`<br>.
 the 4 result files are training and testing data encoded into vectors.<br>
-2.4.3: run `generate.dataset.with.text.feature.ipynb` to get the feature table with text features, the rest are the same as you get from `data_to_vector.py`. For information about how to generate text features, see *2.6*.
-2.5 Fitting the model.
-2.5.1 run `linear_regression.py`, the final result should be printed.
-2.5.2 run `ridge.regression.ipynb` to fit a ridge regression model, in which we do feature selection using grid searching with Cross-Validation.
-2.5.3 run `xgboost.ipynb` to fit a xgboost model, in which we do parameter tuning with Cross-Validation.
-2.6 Generaet text features.
-2.6.1 run `extract.restaurants.ipynb` to extract all the restaurants from the business dataset, and run `aggregate.restaurant.reviews.ipynb` to aggregate reviews for every restaurant.
-2.6.2 run `vectorize.reviews.ipynb` to get the first text feature: text vector representations.
-2.6.3 run `topic_modeling.py` and `process.topic.modeling.prob.ipynb` to get the second text feature: probability distributions over topics for each restaurant. Note training a LDA model can take a long time.
+2.4.3: run `generate.dataset.with.text.feature.ipynb` to get the feature table with text features, the rest are the same as you get from `data_to_vector.py`. For information about how to generate text features, see *2.6*.<br>
+2.5 Fitting the model.<br>
+2.5.1 run `linear_regression.py`, the final result should be printed.<br>
+2.5.2 run `ridge.regression.ipynb` to fit a ridge regression model, in which we do feature selection using grid searching with Cross-Validation.<br>
+2.5.3 run `xgboost.ipynb` to fit a xgboost model, in which we do parameter tuning with Cross-Validation.<br>
+2.6 Generaet text features.<br>
+2.6.1 run `extract.restaurants.ipynb` to extract all the restaurants from the business dataset, and run `aggregate.restaurant.reviews.ipynb` to aggregate reviews for every restaurant.<br>
+2.6.2 run `vectorize.reviews.ipynb` to get the first text feature: text vector representations.<br>
+2.6.3 run `topic_modeling.py` and `process.topic.modeling.prob.ipynb` to get the second text feature: probability distributions over topics for each restaurant. Note training a LDA model can take a long time.<br>
